@@ -9,7 +9,7 @@ class BuckarooAT120 < Formula
   head "https://github.com/LoopPerfect/buckaroo.git",
     :using => :git
 
-  depends_on :java => "1.8+"
+  depends_on "openjdk@8"
   depends_on "buck"
 
   def install
